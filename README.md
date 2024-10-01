@@ -8,4 +8,3 @@ Feel free to browse through the C++ solutions for learning and reference.
 ---
 
 Happy coding! 😄
-# LeetCode-Cpp
