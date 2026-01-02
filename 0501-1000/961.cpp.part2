@@ -1,0 +1,13 @@
+class Solution {
+public:
+    int repeatedNTimes(vector<int>& nums) {
+        unordered_map<int,int> map;
+        int target = nums.size()/2;
+
+        for(int it:nums){
+            map[it]++;
+            if(map[it] == target)return it;
+        }
+        return -1;
+    }
+};
